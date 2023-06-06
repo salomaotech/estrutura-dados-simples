@@ -1,0 +1,10 @@
+Uma fila é uma estrutura de dados linear que segue o princípio do "primeiro a entrar, primeiro a sair" (FIFO - First-In, First-Out). Os elementos são inseridos no final da fila e removidos do início da fila, garantindo a ordem de chegada.
+
+enqueue() - Inserção de elementos na fila.
+dequeue() - Remoção de elementos da fila.
+peek() ou front() - Obtém o elemento de dados disponível no nó frontal da fila sem removê-lo.
+rear() - Esta operação retorna o elemento na extremidade traseira sem removê-lo.
+isFull() - Valida se a fila está cheia.
+isEmpty() - Verifica se a fila está vazia.
+size() - Esta operação retorna o tamanho da fila, ou seja, o número total de elementos que ela contém.
+
