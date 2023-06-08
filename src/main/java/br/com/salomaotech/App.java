@@ -1,6 +1,7 @@
 package br.com.salomaotech;
 
 import br.com.salomaotech.arrays.ArrayExemplo;
+import br.com.salomaotech.conjunto.Conjunto;
 import br.com.salomaotech.fila.Impressora;
 import br.com.salomaotech.lista.ListaLigada;
 import br.com.salomaotech.lista.No;
@@ -11,6 +12,7 @@ public class App {
     private static void array() {
 
         ArrayExemplo.exibir();
+
     }
 
     private static void pilha() {
@@ -66,6 +68,44 @@ public class App {
                 System.out.println("Atual (" + no.getConteudo() + ") próximo (" + no.getProximo().getConteudo() + ")");
 
             }
+
+        }
+
+    }
+
+    private static void conjunto() {
+
+        Conjunto segundaFeira = new Conjunto();
+        Conjunto terfaFeira = new Conjunto();
+
+        segundaFeira.add("Estudar Matemática: Revisar anotações e resolver exercícios.");
+        segundaFeira.add("Ler capítulo de História para a próxima aula.");
+        segundaFeira.add("Fazer resumo dos conceitos principais de Biologia.");
+        segundaFeira.add("Resolver exercícios de Química.");
+        segundaFeira.add("Revisar tópicos difíceis e fazer anotações adicionais.");
+        segundaFeira.add("Elaborar cronograma de estudos para a semana.");
+        segundaFeira.add("Fazer revisão rápida antes de dormir.");
+        segundaFeira.remove("Resolver exercícios de Química.");
+
+        terfaFeira.add("Revisar resumos de Matemática e resolver mais exercícios.");
+        terfaFeira.add("Estudar Geografia usando materiais complementares.");
+        terfaFeira.add("Realizar sessão de estudo em grupo, se possível.");
+        terfaFeira.add("Fazer pausa para atividade física ou relaxamento.");
+        terfaFeira.add("Criar flashcards de Química para revisão.");
+        terfaFeira.add("Fazer teste de autoavaliação.");
+        terfaFeira.add("Preparar material para a aula seguinte.");
+
+        for (String elemento : segundaFeira.getElementos()) {
+
+            System.out.println(elemento);
+
+        }
+
+        System.out.print("\n");
+
+        for (String elemento : terfaFeira.getElementos()) {
+
+            System.out.println(elemento);
 
         }
 

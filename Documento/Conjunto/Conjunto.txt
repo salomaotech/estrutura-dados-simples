@@ -1,0 +1,37 @@
+Conjunto ou Set
+
+Tipo de estrutura de dados onde podemos adicionar dados de forma sequencial, porém teremos a garantia de que não haverá dados duplicados.
+Os dados podem ou não estar na ordem em que foram inseridos dependendo da implementação.
+
+
+Métodos genéricos
+
+Add - Adiciona itens ao conjunto
+Remove - Remove um elemento do conjunto
+Contains - Checa se um elemento já está no conjunto
+Size - Retorna o tamanho do conjunto
+Elementos - Retorna os elementos do conjunto
+
+
+EXEMPLOS
+
+Segunda-feira: 
+------------------------------------------------------------------
+Estudar Matemática: Revisar anotações e resolver exercícios.
+Ler capítulo de História para a próxima aula.
+Fazer resumo dos conceitos principais de Biologia.
+Resolver exercícios de Química.
+Revisar tópicos difíceis e fazer anotações adicionais.
+Elaborar cronograma de estudos para a semana.
+Fazer revisão rápida antes de dormir.
+
+
+Terça-feira:
+------------------------------------------------------------------
+Revisar resumos de Matemática e resolver mais exercícios.
+Estudar Geografia usando materiais complementares.
+Realizar sessão de estudo em grupo, se possível.
+Fazer pausa para atividade física ou relaxamento.
+Criar flashcards de Química para revisão.
+Fazer teste de autoavaliação.
+Preparar material para a aula seguinte.
