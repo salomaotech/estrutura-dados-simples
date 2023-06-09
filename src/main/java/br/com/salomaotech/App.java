@@ -5,7 +5,11 @@ import br.com.salomaotech.conjunto.Conjunto;
 import br.com.salomaotech.fila.Impressora;
 import br.com.salomaotech.lista.ListaLigada;
 import br.com.salomaotech.lista.No;
+import br.com.salomaotech.mapa.Mapa;
 import br.com.salomaotech.pilha.HistoricoDeNavegacao;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public class App {
 
@@ -111,7 +115,29 @@ public class App {
 
     }
 
+    private static void mapa() {
+
+        Mapa<String> mapa = new Mapa();
+        mapa.put("www.salomaotech.com", "2a02:4780:13:918:0:1d22:12ad:3");
+        mapa.put("www.google.com", "2800:3f0:4001:822::2004");
+        mapa.put("www.taimber.com", "2a02:4780:13:918:0:1d22:12ad:2");
+
+        System.out.println(mapa.size());
+
+    }
+
     public static void main(String[] args) {
+
+        Map<String, String> mapa = new LinkedHashMap();
+        mapa.put("www.salomaotech.com", "2a02:4780:13:918:0:1d22:12ad:3");
+        mapa.put("www.google.com", "2800:3f0:4001:822::2004");
+        mapa.put("www.taimber.com", "2a02:4780:13:918:0:1d22:12ad:2");
+
+        for (Map.Entry<String, String> dadosDoMapa : mapa.entrySet()) {
+
+            System.out.println(dadosDoMapa.getKey() + " >>> " + dadosDoMapa.getValue());
+
+        }
 
     }
 
