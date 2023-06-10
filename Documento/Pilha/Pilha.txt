@@ -1,0 +1,79 @@
+Pilha é uma estrutura de dados onde os dados são empilhados.
+O os elementos são chamados de nós, e o primeiro nó é a base da pilha.
+Segue-se o padrão LIFO (Last In: Último que entra, First Out: Primeiro que sai)
+Os elementos são retirados do topo até a base.
+
+
+Push - Coloca elementos na pilha
+Pop - Retira elementos da pilha e retorna o elemento
+IsEmpty - Checa se a pilha está vazia
+IsFull - Checa se a pilha está cheia
+Peek - Pega o valor do último elemento da pilha sem removê-lo
+
+------------------------------------------------------------
+Abra o gabinete.
+Instale a placa-mãe.
+Conecte o processador.
+Instale a memória RAM.
+Fixe o cooler do processador.
+Conecte os cabos do painel frontal.
+Conecte o disco rígido/SSD.
+Insira a placa de vídeo (se houver).
+Coloque a fonte de alimentação.
+Conecte os cabos de alimentação SATA.
+Conecte os cabos de alimentação da placa de vídeo.
+Feche o gabinete.
+
+
+Abra o gabinete.
+Desconecte os cabos de alimentação da placa de vídeo.
+Desconecte os cabos de alimentação SATA.
+Remova a fonte de alimentação.
+Retire a placa de vídeo (se houver).
+Desconecte o disco rígido/SSD.
+Desconecte os cabos do painel frontal.
+Solte o cooler do processador.
+Remova a memória RAM.
+Desconecte o processador.
+Retire a placa-mãe.
+Feche o gabinete.
+
+------------------------------------------------------------
+
+
+www.microsoft.com
+www.linkedin.com
+www.netflix.com
+www.instagram.com
+
+
+
+
+
+
+
+
+
+
+
+www.google.com
+www.youtube.com
+www.facebook.com
+www.amazon.com
+www.wikipedia.org
+www.twitter.com
+www.instagram.com
+www.netflix.com
+www.linkedin.com
+www.microsoft.com
+
+www.microsoft.com
+www.linkedin.com
+www.netflix.com
+www.instagram.com
+www.twitter.com
+www.wikipedia.org
+www.amazon.com
+www.facebook.com
+www.youtube.com
+www.google.com

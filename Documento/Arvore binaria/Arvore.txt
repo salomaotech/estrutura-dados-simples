@@ -1,0 +1,20 @@
+Uma árvore é um conjunto de entidades chamadas nós. Os nós são conectados por arestas. Cada nó contém um valor ou dados e pode ou não ter um nó filho.
+
+
+Onde é usado:
+------------------------------------------------------------------------
+Bancos de dados.
+Sistemas de arquivos.
+Compiladores.
+Sistemas de roteamento de redes.
+Inteligência Artificial.
+Estruturas de dados em geral.
+Jogos de computador.
+Sistemas de gerenciamento de versões (por exemplo, Git).
+Algoritmos de criptografia.
+Aplicações de visualização de dados.
+Sistemas de gerenciamento de cache.
+Aplicações de aprendizado de máquina.
+Análise de redes sociais.
+Algoritmos de busca em grafos.
+Análise e modelagem de linguagens naturais.

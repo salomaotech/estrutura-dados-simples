@@ -1,0 +1,5 @@
+Um Map (ou mapa) em programação é uma estrutura de dados que associa chaves a valores. Ele permite armazenar pares chave-valor, onde cada chave é única e mapeada para um único valor. O Map fornece métodos para inserir, recuperar e remover pares chave-valor de maneira eficiente.
+
+Também pode ser chamada de tabela de espalhamento, ou hash table porque podemos associar uma chave a um valor, assim podemos buscar por um valor utilizando uma chave ao invés de um índice.
+
+

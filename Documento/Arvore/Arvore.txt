@@ -1,0 +1,7 @@
+Árvore é uma estrutura de dados que herda as características das topologias em árvore. Conceptualmente diferente das listas encadeadas, em que os dados se encontram numa sequência, nas árvores os dados estão dispostos de forma hierárquica.
+
+A árvore é composta por um elemento principal chamado raiz, que possui ligações para outros elementos, que são denominados de galhos ou filhos. Estes galhos levam a outros elementos que também possuem outros galhos. O elemento que não possui galhos é conhecido como folha ou nó terminal.
+
+O número máximo de galhos em um elemento é chamado ordem da árvore. Uma árvore binária é aquela de ordem 2, i.e., em que cada elemento possui no máximo 2 galhos.
+
+Uma das operações importantes consiste em percorrer cada elemento da árvore uma única vez. Esse percurso, também chamado de travessia da árvore, pode ser feito em pré-ordem (os filhos de um nó são processados após o nó) ou em pós-ordem (os filhos são processados antes do nó). Em árvores binárias é possível ainda fazer uma travessia em-ordem, em que se processa o filho à esquerda, o nó, e finalmente o filho à direita.

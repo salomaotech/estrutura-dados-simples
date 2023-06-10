@@ -1,0 +1,8 @@
+Um grafo serve para representar e modelar relações entre objetos ou entidades. Ele é uma estrutura de dados poderosa usada para resolver uma ampla variedade de problemas em várias áreas, como ciência da computação, matemática, engenharia, redes sociais, transporte, entre outros. Aqui estão algumas das principais aplicações e usos de grafos:
+
+Redes sociais: Facebook, Instagram, YouTube, etc.
+Caminhos: Google Maps, Maps (Microsoft), etc.
+Sistemas de recomendação: Netflix, Amazon, etc.
+
+
+Uma aresta é uma ligação entre um NÓ a outro NÓ.
